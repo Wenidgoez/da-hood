@@ -1,0 +1,12 @@
+local Players = game.Players
+local Player = Players.LocalPlayer
+
+local toMe = game.Workspace.Ignored.Drop.MoneyDrop
+
+function telePlr()
+   
+   Player.Character.HumanoidRootPart.CFrame = CFrame.new(toMe.Position)
+   
+   end
+
+telePlr()
